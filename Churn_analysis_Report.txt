@@ -1,0 +1,87 @@
+TELCO CUSTOMER CHURN ANALYSIS REPORT
+
+1. PROJECT OVERVIEW
+
+This project analyzes customer churn in a telecommunications company using Python and Pandas.
+
+The objective of the analysis is to identify the major factors associated with customer churn and provide actionable business recommendations to improve customer retention.
+
+2. DATASET OVERVIEW
+Total Customers: 7043
+Total Churned Customers: 1869
+Overall Churn Rate: 26.54%
+
+The dataset contains customer information related to demographics, tenure, services, contracts, payment methods, monthly charges, and churn status.
+
+Before analysis, the TotalCharges column was converted into numeric format and missing values were handled using the median value.
+
+3. KEY FINDINGS
+3.1 Contract-Wise Churn
+
+Month-to-month customers have the highest churn rate at 42.71%.
+One-year contract customers have a churn rate of 11.27%.
+Two-year contract customers have the lowest churn rate of 2.83%.
+
+3.2 Tenure-Wise Churn
+
+Customers with 0-12 months of tenure have the highest churn rate at 47.68%.
+Churn decreases as customer tenure increases.
+Customers with 49-72 months of tenure have the lowest churn rate at 9.51%.
+
+3.3 Internet Service-Wise Churn
+
+Fiber optic customers have the highest churn rate at 41.89%.
+DSL customers have a churn rate of 18.96%.
+Customers without internet service have the lowest churn rate at 7.40%.
+
+3.4 Payment Method-Wise Churn
+
+Electronic check users have the highest churn rate at 45.29%.
+Credit card users have a churn rate of 15.24%.
+Bank transfer users have a churn rate of 16.71%.
+Mailed check users have a churn rate of 19.11%.
+
+3.5 Tech Support
+
+Customers without tech support have a churn rate of 41.64%.
+Customers with tech support have a much lower churn rate of 15.17%.
+
+3.6 Online Security
+
+Customers without online security have a churn rate of 41.77%.
+Customers with online security have a churn rate of 14.61%.
+
+3.7 Monthly Charges
+
+The average monthly charge for churned customers is 74.44.
+The average monthly charge for non-churned customers is 61.27.
+
+4. BUSINESS RECOMMENDATIONS
+
+1. Reduce Month-to-Month Churn
+Offer discounts or additional benefits to encourage month-to-month customers to move to one-year or two-year contracts.
+
+2. Focus on New Customers
+Customers in their first 12 months show the highest churn. A strong onboarding program, regular follow-ups, and early engagement can improve retention.
+
+3. Improve Fiber Optic Customer Experience
+Fiber optic customers have a high churn rate. The company should investigate service quality, pricing, technical issues, and customer satisfaction for this segment.
+
+4. Promote Automatic Payment Methods
+Electronic check users have the highest churn rate. The company can encourage customers to use credit card or automatic bank transfer payments through incentives.
+
+5. Strengthen Technical Support
+Customers without technical support show significantly higher churn. Offering better support plans and proactive assistance may improve retention.
+
+6. Promote Online Security Services
+Customers without online security have much higher churn. Bundling online security with internet plans may improve customer retention.
+
+7. Monitor High Monthly Charges
+Churned customers have higher average monthly charges. The company should review pricing, plan value, and personalized offers for high-paying customers.
+
+5. CONCLUSION
+The analysis shows that customer churn is strongly associated with contract type, customer tenure, internet service, payment method, technical support, online security, and monthly charges.
+
+The highest-risk customer groups include month-to-month customers, customers with short tenure, fiber optic users, electronic check users, customers without technical support, and customers without online security.
+
+By focusing on these high-risk segments and implementing targeted retention strategies, the company can potentially reduce customer churn and improve customer retention.
