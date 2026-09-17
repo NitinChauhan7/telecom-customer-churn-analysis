@@ -41,4 +41,4 @@ The main objective is to identify the key factors that influence customer churn 
 - Monitor customers with high monthly charges.
 
 ## 👨‍💻 Author
-Nitin Rajput
+Nitin chauhan
